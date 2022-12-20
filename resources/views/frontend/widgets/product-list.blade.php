@@ -7,12 +7,16 @@
                 <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
                     All Product
                 </button>
-
-                @foreach($danhsachloai as $loai)
-                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".loai-{{ $loai->l_ma }}">
-                    {{ $loai->l_ten }}
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+                    Figures
                 </button>
-                @endforeach
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+                    Legos
+                </button>
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+                    Water Guns
+                </button>
+                
             </div>
 
             <div class="flex-w flex-c-m m-tb-10">
@@ -206,23 +210,23 @@
 
                         <div class="flex-w p-t-4 m-r--5">
                             <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                                Fashion
+                                Figures
                             </a>
 
                             <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                                Lifestyle
+                                Legos
                             </a>
 
                             <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                                Denim
+                                Fake Guns
                             </a>
 
                             <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                                Streetstyle
+                                Water Guns
                             </a>
 
                             <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                                Crafts
+                                Hot Wheels
                             </a>
                         </div>
                     </div>
